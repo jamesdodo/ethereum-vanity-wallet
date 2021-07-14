@@ -70,11 +70,11 @@ Usage:
 		privateKeyHex := hex.EncodeToString(crypto.FromECDSA(w.PrivateKey))
 		fmt.Printf(
 			"Address: 0x%s%s%s%s%s%s%s PrivateKey: %s\n",
-			colorGreen,
+			colorYellow,
 			addressHex[:len(prefix)],
 			colorReset,
 			addressHex[len(prefix):len(addressHex)-len(suffix)],
-			colorGreen,
+			colorYellow,
 			addressHex[len(addressHex)-len(suffix):],
 			colorReset,
 			privateKeyHex)

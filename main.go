@@ -22,7 +22,7 @@ const (
 )
 
 var (
-	alphabet   = regexp.MustCompile("^[0-9a-fA-F]*$")
+	alphabet   = regexp.MustCompile("^[0-9a-f]*$")
 	numWorkers = runtime.NumCPU()
 )
 

@@ -19,6 +19,7 @@ import (
 const (
 	colorGreen = "\u001b[32m"
 	colorReset = "\u001b[0m"
+	colorYellow = "\u001b[33m"
 )
 
 var (
